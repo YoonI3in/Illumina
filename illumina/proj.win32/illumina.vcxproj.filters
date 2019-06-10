@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Menu">
+      <UniqueIdentifier>{66061930-cd91-432c-a0ac-c476a022898d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage2">
+      <UniqueIdentifier>{b33940e7-efae-4b99-ba2d-b30fde4aec64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage3">
+      <UniqueIdentifier>{a8981099-a02b-4c94-aef8-2d89788731e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MapObjects">
+      <UniqueIdentifier>{3ed6bd5a-a4ec-4ca5-aa08-d1009e5074b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Character">
+      <UniqueIdentifier>{a43f3380-99f9-4ed6-92e0-b67fe2850f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MapObjects\Boxes">
+      <UniqueIdentifier>{3834e0a9-1f84-4d3d-beb9-a4e6e33cb4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage4">
+      <UniqueIdentifier>{1caffec5-6e58-41e2-a5aa-4ecdfe57e252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MapObjects\Mirrors">
+      <UniqueIdentifier>{e6e20f67-6ec0-4f2f-8055-f3073382c9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage5">
+      <UniqueIdentifier>{480ccd40-ed08-4e36-bdea-fa6e202c44fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage6">
+      <UniqueIdentifier>{1c76e53b-4af3-42b2-aa7b-225b60e71815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MapObjects\Lights">
+      <UniqueIdentifier>{cdeb1516-5327-4acc-88b0-6e9680ea437a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\MapObjects\Buttons">
+      <UniqueIdentifier>{99ec05a2-fc49-4f0e-b6aa-b99a4cbc0fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Stage1">
+      <UniqueIdentifier>{2e764347-9dab-460a-af8a-059635f89693}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuBackGround.cpp">
+      <Filter>src\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>src\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Character.cpp">
+      <Filter>src\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuSelect.cpp">
+      <Filter>src\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Door.cpp">
+      <Filter>src\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage2.cpp">
+      <Filter>src\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage3.cpp">
+      <Filter>src\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InputManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FootHold.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage2Tile.cpp">
+      <Filter>src\Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Boxes.cpp">
+      <Filter>src\MapObjects\Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage3Tile.cpp">
+      <Filter>src\Stage3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage4.cpp">
+      <Filter>src\Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage4Tile.cpp">
+      <Filter>src\Stage4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Laser.cpp">
+      <Filter>src\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Recognizer.cpp">
+      <Filter>src\MapObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Box.cpp">
+      <Filter>src\MapObjects\Boxes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Mirror.cpp">
+      <Filter>src\MapObjects\Mirrors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Mirrors.cpp">
+      <Filter>src\MapObjects\Mirrors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GreenLight.cpp">
+      <Filter>src\MapObjects\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RedLight.cpp">
+      <Filter>src\MapObjects\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BlueLight.cpp">
+      <Filter>src\MapObjects\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Buttons.cpp">
+      <Filter>src\MapObjects\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Button.cpp">
+      <Filter>src\MapObjects\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage5.cpp">
+      <Filter>src\Stage5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage6.cpp">
+      <Filter>src\Stage6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage6Tile.cpp">
+      <Filter>src\Stage6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage5Tile.cpp">
+      <Filter>src\Stage5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Stage1.cpp">
+      <Filter>src\Stage1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuBackGround.h">
+      <Filter>src\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>src\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Character.h">
+      <Filter>src\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuSelect.h">
+      <Filter>src\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Door.h">
+      <Filter>src\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage2.h">
+      <Filter>src\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage3.h">
+      <Filter>src\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InputManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FootHold.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage2Tile.h">
+      <Filter>src\Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Boxes.h">
+      <Filter>src\MapObjects\Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage3Tile.h">
+      <Filter>src\Stage3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage4.h">
+      <Filter>src\Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage4Tile.h">
+      <Filter>src\Stage4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Laser.h">
+      <Filter>src\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Recognizer.h">
+      <Filter>src\MapObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Box.h">
+      <Filter>src\MapObjects\Boxes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Mirror.h">
+      <Filter>src\MapObjects\Mirrors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Mirrors.h">
+      <Filter>src\MapObjects\Mirrors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GreenLight.h">
+      <Filter>src\MapObjects\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RedLight.h">
+      <Filter>src\MapObjects\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BlueLight.h">
+      <Filter>src\MapObjects\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Buttons.h">
+      <Filter>src\MapObjects\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Button.h">
+      <Filter>src\MapObjects\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage5.h">
+      <Filter>src\Stage5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage6.h">
+      <Filter>src\Stage6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage6Tile.h">
+      <Filter>src\Stage6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage5Tile.h">
+      <Filter>src\Stage5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Stage1.h">
+      <Filter>src\Stage1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
